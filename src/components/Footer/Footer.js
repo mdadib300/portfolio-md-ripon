@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="grid grid-flow-col gap-4">
                     <a href='https://www.facebook.com/Md.Ripon9365' target='blank'><img src={fb} alt='Facebook Account Link' className='w-8'></img></a>
                     <a href='https://www.linkedin.com/in/md-ripon-5339a0217' target='blank'><img src={lkin} alt='LinkedIn Account Link' className='w-8'></img></a>
-                    <a href='https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmd.ripon_hossain_%3Ffbclid%3DIwAR1mNaK79vq4CLgKBAtruddNDiu9sd7rEdriWUZeEzUcn2vxoViQtxVhqlw&h=AT227h_gwkTNS6n1FtDXzJamkFP3ZAcvhN_LSdD5iun2XwqyN0msBUqH0BWrXIVcPYkG8wQiGpa9fnA3dmmANwYf--q72ZRZU4OiME_uCia5Kirqm0A2vfp7oW6g2qPyTs-jkA' target='blank'><img src={insta} alt='Instagram Account Link' className='w-8'></img></a>
+                    <a href='https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fmd.ripon_8869%3Figshid%3DZGUzMzM3NWJiOQ%253D%253D%26fbclid%3DIwAR24oLSXij520cEsoVcYXfYb37QEciOBaRfs6Za-WhPFwm8q5wO6zYOP1UQ&h=AT0uNyFqYSb4CUsmOAa9uxwETOvLgyy87gDOS2g53xl9GSw8x8wkTdXvJZjUR8n5UyJtgcLJTry5-KB52_nNzXTjVB9eoTc4QwtdE_IVClnmKzJuHArMmkBS3cD1iwptc56wfQ' target='blank'><img src={insta} alt='Instagram Account Link' className='w-8'></img></a>
                 </div>
             </div>
             <div>

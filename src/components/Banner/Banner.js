@@ -12,10 +12,9 @@ const Banner = () => {
                         <h1 className="text-2xl font-medium mt-5 lg:mt-5">Mechanical Engineer</h1>
                         <p className="py-5">Seeking a challenging role in an organization to utilize my knowledge, abilities, and skills for the growth of the organization as well as to enhance my knowledge and experience through continuous learning and teamwork.
                         </p>
-                        <div className='flex justify-start items-center'> 
-                            <a href='https://docs.google.com/presentation/d/107VbQhT1vd98cnbx-Wm7PJeWuiVfb3OE/edit#slide=id.p1' target='blank' className="btn btn-outline mr-3">Resume</a>
+                        <div>
                             <div className="dropdown dropdown-hover">
-                                <label tabIndex={0} className="btn btn-outline m-1">Contact</label>
+                                <label tabIndex={0} className="btn btn-outline mb-1">Contact</label>
                                 <ul tabIndex={0} className="dropdown-content menu p-5 shadow bg-base-100 rounded-box">
                                     <li>Email Address: mdripon8869@gmail.com</li>
                                 </ul>

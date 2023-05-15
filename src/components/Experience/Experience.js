@@ -8,6 +8,19 @@ const Experience = () => {
                 <div className="carousel w-11/12 lg:w-3/5 mx-auto mb-20">
                     <div id="slide1" className="carousel-item relative w-full flex justify-center">
                         <div className='p-10'>
+                            <h4 className='text-2xl font-semibold'>Assistant Mechanical Engineer</h4>
+                            <h4 className='text-xl font-light'>June 2022 to Present</h4>
+                            <h4 className='text-xl font-semibold mt-3'>POSCO E&C (South Korea)</h4>
+                            <h4 className='text-xl font-normal'>Matarbari 1200MW USC Coal Fired Power Project, Cox’s Bazar.</h4>
+                            <p></p>
+                        </div>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" className="btn btn-circle btn-outline">❮</a>
+                            <a href="#slide2" className="btn btn-circle btn-outline">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" className="carousel-item relative w-full flex justify-center">
+                        <div className='p-10'>
                             <h4 className='text-2xl font-semibold'>Mechanical Supervisor</h4>
                             <h4 className='text-xl font-light'>June 2021 to Present</h4>
                             <h4 className='text-xl font-semibold mt-3'>POSCO E&C (South Korea)</h4>
@@ -15,11 +28,25 @@ const Experience = () => {
                             <p></p>
                         </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" className="btn btn-circle btn-outline">❮</a>
-                            <a href="#slide2" className="btn btn-circle btn-outline">❯</a>
+                            <a href="#slide1" className="btn btn-circle btn-outline">❮</a>
+                            <a href="#slide3" className="btn btn-circle btn-outline">❯</a>
                         </div>
                     </div>
-                    <div id="slide2" className="carousel-item relative w-full flex justify-center">
+                    <div id="slide3" className="carousel-item relative w-full flex justify-center">
+                        <div className='p-10'>
+                            <h4 className='text-2xl font-semibold'>Site Supervisor</h4>
+                            <h4 className='text-xl font-light'>August 2018 to February 2021</h4>
+                            <h4 className='text-xl font-semibold mt-3'>China Harbour Engineering Company Ltd.</h4>
+                            <h4 className='text-xl font-normal'>Teghoria Interchange & Equria Babubazar Link Road Flyover,Dhaka</h4>
+                            <h4 className='text-xl font-normal'>HQ24 Engineering Construction Brigade, Bangladesh Army</h4>
+                            <p></p>
+                        </div>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" className="btn btn-circle btn-outline">❮</a>
+                            <a href="#slide4" className="btn btn-circle btn-outline">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" className="carousel-item relative w-full flex justify-center">
                         <div className='p-10'>
                             <h4 className='text-2xl font-semibold'>Technician</h4>
                             <h4 className='text-xl font-light'>October 2016 to May 2018</h4>
@@ -28,7 +55,7 @@ const Experience = () => {
                             <p></p>
                         </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" className="btn btn-circle btn-outline">❮</a>
+                            <a href="#slide3" className="btn btn-circle btn-outline">❮</a>
                             <a href="#slide1" className="btn btn-circle btn-outline">❯</a>
                         </div>
                     </div>
@@ -42,10 +69,25 @@ const Experience = () => {
                     <div className="collapse-content">
                         <div>
                             <div className='p-10'>
+                                <h4 className='text-xl font-semibold'>Assistant Mechanical Engineer</h4>
+                                <h4 className='text-lg font-light'>June 2022 to Present</h4>
+                                <h4 className='text-lg font-semibold mt-3'>POSCO E&C (South Korea)</h4>
+                                <h4 className='text-lg font-normal'>Matarbari 1200MW USC Coal Fired Power Project, Cox’s Bazar.</h4>
+                                <p></p>
+                            </div>
+                            <div className='p-10'>
                                 <h4 className='text-xl font-semibold'>Mechanical Supervisor</h4>
                                 <h4 className='text-lg font-light'>June 2021 to Present</h4>
                                 <h4 className='text-lg font-semibold mt-3'>POSCO E&C (South Korea)</h4>
                                 <h4 className='text-lg font-normal'>Matarbari 1200MW USC Coal Fired Power Project, Cox’s Bazar.</h4>
+                                <p></p>
+                            </div>
+                            <div className='p-10'>
+                                <h4 className='text-xl font-semibold'>Site Supervisor</h4>
+                                <h4 className='text-lg font-light'>August 2018 to February 2021</h4>
+                                <h4 className='text-lg font-semibold mt-3'>China Harbour Engineering Company Ltd.</h4>
+                                <h4 className='text-lg font-normal'>Teghoria Interchange & Equria Babubazar Link Road Flyover,Dhaka</h4>
+                                <h4 className='text-lg font-normal'>HQ24 Engineering Construction Brigade, Bangladesh Army</h4>
                                 <p></p>
                             </div>
                             <div className='p-10'>

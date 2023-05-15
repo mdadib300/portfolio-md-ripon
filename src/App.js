@@ -1,8 +1,6 @@
 import './App.css';
-import About from './components/About/About';
 import Achievement from './components/Achievement/Achievement';
 import Banner from './components/Banner/Banner';
-import Contact from './components/Contact/Contact';
 import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';

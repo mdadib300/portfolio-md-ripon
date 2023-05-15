@@ -6,10 +6,8 @@ import lkin from '../../assets/in.png';
 const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded mt-40">
-            <div className="grid grid-flow-col gap-4">
-                <a href='/#about' className="link link-hover">About Me</a>
-                <a className="link link-hover">Contact</a>
-                <a href='/' className="link link-hover">Homepage</a>
+            <div>
+                <p>Thanks for visiting!</p>
             </div>
             <div>
                 <div className="grid grid-flow-col gap-4">

@@ -10,7 +10,7 @@ import innovative from '../../assets/project-management.png';
 const Skills = () => {
     return (
         <div id='skills'>
-            <h2 className='text-2xl font-medium text-center mt-20 mb-10'>Skills</h2>
+            <h2 className='text-2xl lg:text-3xl font-semibold text-center mt-20 mb-10'>Skills</h2>
             <div className='grid gird-cols-1 lg:grid-cols-7 mb-20'>
                 <div className='flex justify-center'>
                     <div className="tooltip m-10" data-tip="Microsoft Word">

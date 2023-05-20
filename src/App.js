@@ -1,20 +1,36 @@
 import './App.css';
-import Achievement from './components/Achievement/Achievement';
-import Banner from './components/Banner/Banner';
-import Experience from './components/Experience/Experience';
-import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar/Navbar';
-import Skills from './components/Skills/Skills';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Main from './components/Main/Main';
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
+import Email from './components/Email/Email';
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main />,
+      children: [
+        {
+          path: '/',
+          element: <Home />
+        },
+        {
+          path: '/contact',
+          element: <Contact />
+        },
+        {
+          path: '/email',
+          element: <Email />
+        }
+      ]
+    }
+  ])
+
   return (
     <div className="max-w-[1440px] mx-auto">
-      <Navbar />
-      <Banner />
-      <Skills />
-      <Experience />
-      <Achievement />
-      <Footer />
+      <RouterProvider router={router} />
     </div>
   );
 }

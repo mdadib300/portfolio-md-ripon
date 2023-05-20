@@ -23,6 +23,20 @@ const Experience = () => {
                             <li>• Installing the Electric Overhead Crane (maximum Load 145/55) Ton.</li>
                         </ol>
                     </div>
+                    <h3 className="font-semibold text-xl">Skills:</h3>
+                    <div className="py-4 text-lg">
+                        <ol>
+                            <li>• Pipeline Construction</li>
+                            <li>• Inspection</li>
+                            <li>• Welding Inspection</li>
+                            <li>• Cooling Water</li>
+                            <li>• AutoCAD</li>
+                            <li>• Mechanical Engineering</li>
+                            <li>• Planning</li>
+                            <li>• Team Development</li>
+                            <li>• Team Performance</li>
+                        </ol>
+                    </div>
                     <div className="modal-action">
                         <label htmlFor="Assistant-Mechanical-Engineer" className="btn btn-sm">Close</label>
                     </div>
@@ -42,6 +56,13 @@ const Experience = () => {
                             <li>• Ensuring job site is safe and all works is being performed correctly.</li>
                         </ol>
                     </div>
+                    <h3 className="font-semibold text-xl">Skills:</h3>
+                    <div className="py-4 text-lg">
+                        <ol>
+                            <li>• Mechanical Engineering</li>
+                            <li>• Team Performance</li>
+                        </ol>
+                    </div>
                     <div className="modal-action">
                         <label htmlFor="Site-supervisor" className="btn btn-sm">Close</label>
                     </div>
@@ -58,6 +79,14 @@ const Experience = () => {
                             <li>• Rotary printing machine install.</li>
                             <li>• Operates traveling or stationary overhead crane to lift, move, and position loads.</li>
                             <li>• Observe all workplace safety rules and regulations.</li>
+                        </ol>
+                    </div>
+                    <h3 className="font-semibold text-xl">Skills:</h3>
+                    <div className="py-4 text-lg">
+                        <ol>
+                            <li>• Industrial Engineering</li>
+                            <li>• Automation</li>
+                            <li>• Electronics</li>
                         </ol>
                     </div>
                     <div className="modal-action">

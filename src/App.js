@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './components/Main/Main';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
-import Email from './components/Email/Email';
 
 function App() {
 
@@ -19,10 +18,6 @@ function App() {
         {
           path: '/contact',
           element: <Contact />
-        },
-        {
-          path: '/email',
-          element: <Email />
         }
       ]
     }

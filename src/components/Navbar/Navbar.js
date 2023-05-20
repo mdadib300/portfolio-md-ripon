@@ -11,7 +11,7 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href='/'>Homepage</a></li>
                         <li><a href='/#skills'>Skills & Experience</a></li>
-                        <li><a href='/#ach'>Achievement</a></li>
+                        <li><a href='/#ach'>Achievements</a></li>
                     </ul>
                 </div>
                 <a href='/' className="text-lg lg:text-2xl font-semibold">Ripon's Profile</a>
